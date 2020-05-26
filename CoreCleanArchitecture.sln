@@ -3,9 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreCleanArch.Domain", "CoreCleanArch.Domain", "{574A7221-F850-4108-9FE5-6367C7C9AB0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreCleanArch.UI.MVC", "CoreCleanArch.UI.MVC", "{38927A4B-F8D7-4AB9-A125-C3F7D3524F96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreCleanArch.Infra.Data", "CoreCleanArch.Infra.Data", "{EA1FD6CB-7334-438F-BA79-16FD0C7648C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreCleanArch.Infra.IoC", "CoreCleanArch.Infra.IoC", "{F054CA42-7BC9-4C06-99AB-FD6640EF68BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreCleanArch.Application", "CoreCleanArch.Application", "{67A49411-02FA-4025-8870-4B600BCEAF21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCleanArch.MVC", "CoreCleanArch.MVC\CoreCleanArch.MVC.csproj", "{4E885D11-7AED-4314-A8F4-FAB431A8B3D4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E885D11-7AED-4314-A8F4-FAB431A8B3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E885D11-7AED-4314-A8F4-FAB431A8B3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E885D11-7AED-4314-A8F4-FAB431A8B3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E885D11-7AED-4314-A8F4-FAB431A8B3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E885D11-7AED-4314-A8F4-FAB431A8B3D4} = {38927A4B-F8D7-4AB9-A125-C3F7D3524F96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {387A3476-5390-4230-A00A-B7DDFFDC70F4}
